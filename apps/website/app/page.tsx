@@ -1,9 +1,11 @@
-import { HeroStyles } from "@monowind/styles-library";
+import { HeroStyles, PageStyles } from "@monowind/styles-library";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className={HeroStyles.container}>Monowind</div>
+    <main className={PageStyles.container}>
+      <div className={HeroStyles.container}>
+        <h1 className={HeroStyles.title}>Monowind</h1>
+      </div>
     </main>
   );
 }

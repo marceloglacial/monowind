@@ -8,7 +8,7 @@ export default function TabOneScreen() {
   return (
     <View className={PageStyles.container}>
       <View className={HeroStyles.container}>
-        <Text>Monowind</Text>
+        <Text className={HeroStyles.title}>Monowind</Text>
       </View>
       {/* <EditScreenInfo path="app/(tabs)/index.tsx" /> */}
     </View>
