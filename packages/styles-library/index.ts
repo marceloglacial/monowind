@@ -1,3 +1,7 @@
-export const Hero = {
-  container: `flex bg-orange-700 p-8 rounded-lg`,
+export const PageStyles = {
+  container: "flex flex-1 items-center justify-center",
+};
+
+export const HeroStyles = {
+  container: `flex bg-red-600 p-16 rounded-lg`,
 };
