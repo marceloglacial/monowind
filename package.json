@@ -1,0 +1,13 @@
+{
+  "name": "monowind",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/marceloglacial/monowind.git",
+  "author": "marceloglacial <glacial@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
